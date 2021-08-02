@@ -5,6 +5,7 @@ services:
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix:rw
             - $HOME/.Xauthority:/root/.Xauthority:rw
+            - /home/sd/Documents/code/mas-ss-21/SDP/ros2-pybullet-development-container/pybullet_ros2:/home/ros_user/workspace/
         environment:
             - DISPLAY=$DISPLAY
             - QT_X11_NO_MITSHM=1
