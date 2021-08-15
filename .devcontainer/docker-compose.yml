@@ -1,7 +1,7 @@
 version: "2.0"
 services:
     ros2:
-        image: ros2_pybullet_gui:latest
+        image: sdphbrs/ros2-pybullet-development-container:latest
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix:rw
             - $HOME/.Xauthority:/root/.Xauthority:rw
